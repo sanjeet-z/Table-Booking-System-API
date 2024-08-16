@@ -1,0 +1,94 @@
+@Restaurant_Table_Booking_Web_Api_HostAddress = http://localhost:5243
+
+GET {{Restaurant_Table_Booking_Web_Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+### Authentication ###
+
+POST {{Restaurant_Table_Booking_Web_Api_HostAddress}}/api/Auth/Login
+Content-Type: application/json
+
+{
+  "username": "user1@gmail.com",
+  "password": "User1@12345"
+}
+
+### 
+
+POST {{Restaurant_Table_Booking_Web_Api_HostAddress}}/api/Auth/LoginRefreshToken
+Content-Type: application/json
+
+{
+  "accessToken": "string",
+  "refreshToken": "string"
+}
+
+###
+
+POST {{Restaurant_Table_Booking_Web_Api_HostAddress}}/api/Auth/Logout
+Content-Type: application/json
+
+{
+  "accessToken": "string"
+}
+
+###
+
+POST {{Restaurant_Table_Booking_Web_Api_HostAddress}}/api/Auth/ChangePassword
+Content-Type: application/json
+
+{
+  "username": "user1@gmail.com",
+  "password": "User1@12345",
+  "newPassword": "User1@123"
+}
+
+### TableBooking ###
+
+POST {{Restaurant_Table_Booking_Web_Api_HostAddress}}/api/TableBooking
+Content-Type: application/json
+
+{
+  "bookingDate": "19-07-2024",
+  "customerName": "Mihir",
+  "noOfMembers": 4,
+  "email": "mihirl.s2g@gmail.com",
+  "mobileNo": "9638527412",
+  "occassion": 1,
+  "bookingTime": 1,
+  "paymentMode": 1,
+  "couponCode": "",
+  "status": 1
+}
+
+
+###
+
+GET {{Restaurant_Table_Booking_Web_Api_HostAddress}}/api/TableBooking
+Content-Type: application/json
+
+###
+
+GET {{Restaurant_Table_Booking_Web_Api_HostAddress}}/api/TableBooking/4
+Content-Type: application/json
+
+
+###
+
+PUT {{Restaurant_Table_Booking_Web_Api_HostAddress}}/api/TableBooking
+Content-Type: application/json
+
+{
+  "id": 4,
+  "bookingDate": "18-07-2024",
+  "customerName": "Vikash",
+  "noOfMembers": 6,
+  "email": "vikki@gmail.com",
+  "mobileNo": "8574125896",
+  "occassion": 1,
+  "bookingTime": 1
+}
+
+###
+
+DELETE {{Restaurant_Table_Booking_Web_Api_HostAddress}}/api/TableBooking/4

@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ApplicationLayer\\Features\\TableBookingFeature",
+    "\\InfrastructureLayer\\Repositories",
+    "\\Restaurant Table Booking Web Api\\Controllers",
+    "\\Restaurant Table Booking Web Api\\obj\\Release\\net8.0",
+    "\\Shared\\Constants"
+  ],
+  "PreviewInSolutionExplorer": false
+}

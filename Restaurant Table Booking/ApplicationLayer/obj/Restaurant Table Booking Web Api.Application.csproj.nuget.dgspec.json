@@ -1,0 +1,219 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\ApplicationLayer\\Restaurant Table Booking Web Api.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\ApplicationLayer\\Restaurant Table Booking Web Api.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\ApplicationLayer\\Restaurant Table Booking Web Api.Application.csproj",
+        "projectName": "Restaurant Table Booking Web Api.Application",
+        "projectPath": "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\ApplicationLayer\\Restaurant Table Booking Web Api.Application.csproj",
+        "packagesPath": "C:\\Users\\PC3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\ApplicationLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\DomainLayer\\Restaurant Table Booking Web Api.Domain.csproj": {
+                "projectPath": "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\DomainLayer\\Restaurant Table Booking Web Api.Domain.csproj"
+              },
+              "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\Shared\\Restaurant Table Booking Web Api.Shared.csproj": {
+                "projectPath": "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\Shared\\Restaurant Table Booking Web Api.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\DomainLayer\\Restaurant Table Booking Web Api.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\DomainLayer\\Restaurant Table Booking Web Api.Domain.csproj",
+        "projectName": "Restaurant Table Booking Web Api.Domain",
+        "projectPath": "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\DomainLayer\\Restaurant Table Booking Web Api.Domain.csproj",
+        "packagesPath": "C:\\Users\\PC3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\DomainLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\Shared\\Restaurant Table Booking Web Api.Shared.csproj": {
+                "projectPath": "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\Shared\\Restaurant Table Booking Web Api.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\Shared\\Restaurant Table Booking Web Api.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\Shared\\Restaurant Table Booking Web Api.Shared.csproj",
+        "projectName": "Restaurant Table Booking Web Api.Shared",
+        "projectPath": "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\Shared\\Restaurant Table Booking Web Api.Shared.csproj",
+        "packagesPath": "C:\\Users\\PC3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC3\\OneDrive\\Desktop\\Peeyush WebAPI\\Restaurant Table Booking\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\learning\\Restaurant Table Booking\\Restaurant Table Booking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD6603C0-36E4-4A29-B89C-73542FAFC399}|InfrastructureLayer\\Restaurant Table Booking.Infrastructure.csproj|c:\\users\\asus\\desktop\\learning\\restaurant table booking\\restaurant table booking\\infrastructurelayer\\authservice\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD6603C0-36E4-4A29-B89C-73542FAFC399}|InfrastructureLayer\\Restaurant Table Booking.Infrastructure.csproj|solutionrelative:infrastructurelayer\\authservice\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4DBACE-AF98-43D9-B19D-BF541B423648}|Restaurant Table Booking Web Api\\Restaurant Table Booking Web Api.csproj|c:\\users\\asus\\desktop\\learning\\restaurant table booking\\restaurant table booking\\restaurant table booking web api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4DBACE-AF98-43D9-B19D-BF541B423648}|Restaurant Table Booking Web Api\\Restaurant Table Booking Web Api.csproj|solutionrelative:restaurant table booking web api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4DBACE-AF98-43D9-B19D-BF541B423648}|Restaurant Table Booking Web Api\\Restaurant Table Booking Web Api.csproj|c:\\users\\asus\\desktop\\learning\\restaurant table booking\\restaurant table booking\\restaurant table booking web api\\controllers\\tablebookingcontroller\\tablebookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4DBACE-AF98-43D9-B19D-BF541B423648}|Restaurant Table Booking Web Api\\Restaurant Table Booking Web Api.csproj|solutionrelative:restaurant table booking web api\\controllers\\tablebookingcontroller\\tablebookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\learning\\Restaurant Table Booking\\Restaurant Table Booking\\InfrastructureLayer\\AuthService\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\AuthService\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\learning\\Restaurant Table Booking\\Restaurant Table Booking\\InfrastructureLayer\\AuthService\\AuthRepository.cs",
+              "RelativeToolTip": "InfrastructureLayer\\AuthService\\AuthRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T12:47:20.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TableBookingController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\learning\\Restaurant Table Booking\\Restaurant Table Booking\\Restaurant Table Booking Web Api\\Controllers\\TableBookingController\\TableBookingController.cs",
+              "RelativeDocumentMoniker": "Restaurant Table Booking Web Api\\Controllers\\TableBookingController\\TableBookingController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\learning\\Restaurant Table Booking\\Restaurant Table Booking\\Restaurant Table Booking Web Api\\Controllers\\TableBookingController\\TableBookingController.cs*",
+              "RelativeToolTip": "Restaurant Table Booking Web Api\\Controllers\\TableBookingController\\TableBookingController.cs*",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAowFUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T12:29:59.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\learning\\Restaurant Table Booking\\Restaurant Table Booking\\Restaurant Table Booking Web Api\\Program.cs",
+              "RelativeDocumentMoniker": "Restaurant Table Booking Web Api\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\learning\\Restaurant Table Booking\\Restaurant Table Booking\\Restaurant Table Booking Web Api\\Program.cs",
+              "RelativeToolTip": "Restaurant Table Booking Web Api\\Program.cs",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T10:42:03.137Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
